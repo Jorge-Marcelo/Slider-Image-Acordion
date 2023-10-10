@@ -1,5 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap");
+
+body {
+margin: 0;
+padding: 0;
+font-family: "Phudu", cursive;
+}
+
+p {
+font-size: 1.3em;
+margin-bottom: -10px;
+}
+
+h1 {
+font-size: 1.7em;
+margin-bottom: -2px;
+}
+
 .container {
-position: absolute;
+position: relative;
 margin: auto;
 top: 0;
 bottom: 0;
@@ -12,4 +30,39 @@ height: 80vh;
 .image {
 height: 100%;
 cursor: pointer;
+}
+
+/*Classes de redes sociais*/
+
+footer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.img {
+position: relative;
+right: 1px;
+}
+
+.social {
+background: transparent;
+border: 3px solid rgb(0, 0, 0);
+background-color: white;
+transition: transform 0.3s ease-in-out;
+border-radius: 100%;
+margin: 0 7px;
+width: 50px;
+height: 50px;
+cursor: pointer;
+}
+
+.social:hover {
+background: linear-gradient(
+rgb(255, 0, 212),
+rgb(17, 0, 255),
+rgb(153, 0, 255)
+);
+transition: all 1s ease-in;
+transform: rotateY(360deg);
 }
