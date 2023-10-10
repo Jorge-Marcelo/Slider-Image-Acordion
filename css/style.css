@@ -7,13 +7,15 @@ font-family: "Phudu", cursive;
 }
 
 p {
-font-size: 1.3em;
+font-size: 1.2em;
 margin-bottom: -10px;
+text-align: center;
 }
 
 h1 {
 font-size: 1.7em;
 margin-bottom: -2px;
+text-align: center;
 }
 
 .container {
