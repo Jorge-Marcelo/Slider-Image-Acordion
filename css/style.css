@@ -6,6 +6,13 @@ padding: 0;
 font-family: "Phudu", cursive;
 }
 
+main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
 p {
 font-size: 1.2em;
 margin-bottom: -10px;
@@ -34,15 +41,11 @@ height: 100%;
 cursor: pointer;
 }
 
-/*Classes de redes sociais*/
-
 footer {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+position: relative;
 }
 
+/*Classes de redes sociais*/
 .social {
 background: transparent;
 border: 3px solid rgb(0, 0, 0);
@@ -53,6 +56,13 @@ margin: 0 7px;
 width: 50px;
 height: 50px;
 cursor: pointer;
+position: relative;
+}
+
+.social img {
+position: relative;
+top: 0;
+left: -2px;
 }
 
 .social:hover {
