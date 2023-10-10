@@ -54,6 +54,13 @@ height: 50px;
 cursor: pointer;
 }
 
+
+.social img {
+position: absolute;
+top: 0;
+left: 3px;
+}
+
 .social:hover {
 background: linear-gradient(
 rgb(255, 0, 212),
