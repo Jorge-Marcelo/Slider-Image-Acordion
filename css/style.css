@@ -56,9 +56,9 @@ cursor: pointer;
 
 
 .social img {
-position: absolute;
+position: relative;
 top: 0;
-left: 3px;
+left: -2px;
 }
 
 .social:hover {
